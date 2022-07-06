@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    background-image: url(yasuo-yone.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+} */
+
+section{
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+}
+
+.caixa-pai{
+    padding: 70px 0;
+}
+
+.gif img{
+    width: 100%;
+    
+}
+
+.riot{
+    width: 170px;
+}
+
+.client{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    gap: 40px;
+}
+
+.client h1{
+    font-size: 13px;
+
+}
