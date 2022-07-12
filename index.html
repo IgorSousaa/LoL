@@ -9,7 +9,8 @@
 </head>
 <body>
     <main>
-        <section>
+        <section class="conteudo">
+            <div class="caixa-conteudo">
             <div class="caixa-pai">
                 <div class="client">
                     <figure>
@@ -17,19 +18,52 @@
                     </figure>
                     <h1>Fazer Login</h1>
                 </div>
-                <form>
-                    <label for="usuario"></label>
-                    <input id="usuario" type="text" placeholder="">
-    
-                    <label for="senha"></label>
-                    <input type="password" id="">
-                </form>
-                   
+                <div class="inputs">
+                    <form>
+                        <label for="usuario"></label>
+                        <input id="usuario" type="text" placeholder="Nome de Usuario" class="usuario">
+        
+                        <label for="senha"></label>
+                        <input type="password" id="senha" placeholder="********" class="senha">
+                    </form>      
+                </div>
             </div>
-            <figure class="gif">
-                <img src="yone-yasuo.gif" alt="Yasuo e Yone">
-            </figure>
-        </section>
+           
+            <div>
+                <div class="img-app">
+                    <figure class="facebook">
+                        <img src="facebook-logo-fill 1.png" alt="facebook">
+                    </figure>
+                    <figure class="google">
+                        <img src="google-logo-fill 1.png" alt="google">
+                    </figure>
+                    <figure class="apple">
+                        <img src="apple-logo-fill 1.png" alt="apple">
+                    </figure>
+                </div>
+
+                <div>
+                    <input id="login" type="checkbox" class="click">
+                    <label for="login">Manter login</label>
+                </div>
+
+                <div class="btn">
+                    <button class="btn-arrow" disabled>
+                        <img src="arrow-right-thin 1.png" alt="seta">
+                    </button>
+
+                    <div class="msg">
+                        <p><a href="">Não consegue iniciar a sessão?</a></p>
+                        <p><a href="">Criar conta</a></p>
+                    </div>
+                </div>
+            </div>
+            </div>
+                <figure class="gif">
+                    <img src="yone-yasuo.gif" alt="Yasuo e Yone"> 
+                </figure>
+            </section> 
     </main>
+    <script src="script.js"></script>
 </body>
 </html>

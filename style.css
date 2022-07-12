@@ -13,23 +13,37 @@
 } */
 
 section{
-    background-color: aqua;
     width: 100%;
     display: flex;
+}
+
+.conteudo{ 
+    display: flex;
+}
+
+.caixa-conteudo{
+    width: 40%;
 }
 
 .caixa-pai{
     padding: 70px 0;
 }
 
+.gif{
+    width: 100%;
+    background-color: #8A0000;
+    height: 100vh;
+}
+
 .gif img{
     width: 100%;
-    
+    height: 100%;
 }
 
 .riot{
     width: 170px;
-}
+    margin-left: 90px;
+} 
 
 .client{
     display: flex;
@@ -41,5 +55,87 @@ section{
 
 .client h1{
     font-size: 13px;
+    margin-left: 60px;
+}
 
+.inputs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.inputs input{
+    background-color: #E8E6E6;
+    width: 350px;
+    height: 50px;
+    border: none;
+}
+
+.img-app{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.facebook{
+    background-color: blue;
+    border-radius: 5px;
+    width: 100px;
+    justify-content: center;
+    display: flex;
+}
+
+.google{
+    
+    background-color: #8A0000;
+    border-radius: 5px;
+    width: 100px;
+    justify-content: center;
+    display: flex;
+}
+
+.apple{
+    background-color: black;
+    border-radius: 5px;
+    width: 100px;
+    justify-content: center;
+    display: flex;
+}
+
+.click{
+    margin-left: 28px;
+}
+
+.btn{
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.btn-arrow{
+    background-color: #ff002e;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    opacity: .2;
+}
+
+.btn-opacity{
+    opacity: 1;
+}
+
+
+.msg p{
+    text-align: center;
+}
+
+.msg a{
+    color: #A6A6A6;
 }
